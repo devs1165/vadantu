@@ -1,0 +1,45 @@
+.img-and-tip-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end
+}
+.book-cover-wrapper{
+    box-shadow: 0px 2px 5px 3px #ccc;
+
+}
+.img-book-cover{
+    width:100%;
+    height: 300px;
+}
+.drop-down-tip{
+    height: 50px;
+    width: 50px;
+    background: #2ecc71;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 4;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color: aliceblue;
+    cursor: pointer;
+}
+.drop-down-tip:hover{
+    box-shadow: 0px 2px 5px 2px #ccc;
+}
+.book-name-container{
+    font-size: 20px;
+    color: #333333;   
+}
+.book-auther-container{
+    font-size: 14px;
+    color: #747373;
+}
+
+.pop-drop-container{
+    position: absolute;
+    background: white;
+    margin-top: 85px;
+    margin-left: 25px;
+    box-shadow: 0px 2px 5px 2px #ccc;
+}
