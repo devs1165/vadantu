@@ -28,8 +28,6 @@ var current = [];
 var read = [];
 
 export function wantToRead(res){
-    var 
-
     return function(dispatch){
         dispatch({
             type : "WANT",
