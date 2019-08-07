@@ -39,7 +39,24 @@
 .pop-drop-container{
     position: absolute;
     background: white;
-    margin-top: 85px;
+    margin-top: 195px;
     margin-left: 25px;
     box-shadow: 0px 2px 5px 2px #ccc;
+    z-index: 9;
+}
+.drop-popup-move{
+    font-size: 12px;
+    color: #333333;
+    user-select: none;
+}
+.drop-popup-element{
+    cursor: pointer;
+    user-select: none;
+    font: 100;
+    font-size: 14px;
+    color: #747373
+}
+.drop-popup-element:hover{
+    background: #2ecc71;
+    color: aliceblue;
 }

@@ -1,11 +1,18 @@
 export default function reducer(state = {
-    testData : ""
+    want : [],
+    read:[],
+    current:[]
 }, action){
     switch(action.type){
-        case "TEST" : {
-            return { ...state, testData : "Added from redux action" }
+        case "WANT" : {
+            return { ...state, want : action.payload }
         }
-
+        case "READ" : {
+            return { ...state, read : action.payload }
+        }
+        case "CURRENT" : {
+            return { ...state, current : action.payload }
+        }
         default : {}
     }
 
